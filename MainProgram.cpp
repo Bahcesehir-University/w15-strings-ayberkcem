@@ -91,7 +91,7 @@ bool isPalindrome(const string& text) {
     {
     if (text[left] != text[right])
     return false;
-    left--;
+    left++;
  right--;   
 }
     return true; // TODO: replace
